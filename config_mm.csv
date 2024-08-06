@@ -1,0 +1,23 @@
+# type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment
+#The configuration below is for an MM-2 in its default configuration (Config 8, Mixer)
+
+r,mm,status_mm,Status MM-2,,51,5014,,status_mm,,HEX,,,Status MM-2,,,IGN:1,,,,vorlauftemp,,D2B,,°C,Vorlauftemperatur,temp1,,D1C,,°C,Temperatur 1,temp2,,D1C,,°C,Temperatur 2,heizkurvenabstand,,D1C,,°C,Heizkurvenabstand,mk_max_temp,,D1C,,°C,Maximale Mischerkreistemperatur,mk_min_temp,,D1C,,°C,Minimale Mischerkreistemperatur
+
+#The following messages are not regularly reported by the MM-2, you have to request them via polling
+#Depending on configuration not all messages may be applicable, so only request the ones relevant by specifying a polling interval
+
+r9,mm,mischermotor_offen,Mischermotor offen,,51,5022,CC5600,mischermotor_offen,,UIN,0x00=Aus;0x01=Zu;0x02=Auf,,Mischermotor offen
+r9,mm,mischermotor_geschlossen,Mischermotor geschlossen,,51,5022,CC5700,mischermotor_geschlossen,,UIN,0x00=Aus;0x01=Zu;0x02=Auf,,Mischermotor geschlossen
+r,mm,ausgang_a1,Ausgang A1 / Ladepumpe / Speicherladepumpe,,51,5022,CC8D0A,ausgang_a1,,UIN,0x00=Aus;0x01=Ein,,Ausgang A1 / Ladepumpe / Speicherladepumpe
+r9,mm,mischersolltemp,Mischersolltemperatur,,51,5022,CC0400,mischersolltemp,,SIN,10,°C,Mischersolltemperatur
+r,mm,eingang_e2,Eingang E2,,51,5022,CC2A0A,eingang_e2,,SIN,10,°C,Eingang E2
+r9,mm,vorlauftemp,Vorlauftemperatur / Rücklauftemperatur,,51,5022,CC0F00,vorlauftemp,,SIN,10,°C,Vorlauftemperatur / Rücklauftemperatur
+r,mm,heizkreispumpe,Heizkreispumpe,,51,5022,CC8D69,heizkreispumpe,,UIN,0x00=Aus;0x01=Ein,,Heizkreispumpe
+r,mm,warmwassertemp,Warmwassertemperatur,,51,5022,CC4106,warmwassertemp,,SIN,10,°C,Warmwassertemperatur
+r,mm,warmwassersolltemp,Warmwassersolltemperatur,,51,5022,CC0300,warmwassersolltemp,,SIN,10,°C,Warmwassersolltemperatur
+r9,mm,mischerkreispumpe,Mischerkreispumpe,,51,5022,CC5200,mischerkreispumpe,,UIN,0x00=Aus;0x01=Ein,,Mischerkreispumpe
+##Depending on configuration of MM, E1 may either read a dry contact or a temperatur sensor. Use the one representing your system
+#r,mm,eingang_e1,Eingang E1,,51,5022,CC290A,eingang_e1,,UIN,0xFDA8=Aus;0xFE0C=Ein,,Eingang E1
+#r,mm,eingang_e1,Eingang E1,,51,5022,CC2A0A,eingang_e1,,SIN,10,°C,Eingang E1
+r9,mm,status_mischer,Betriebsstatus,,51,5022,CC6500,status_mischer,,BI4:4,,,Betriebsstatus Mischerkreis,status_ausgang_a1,,BI4:4,,,Betriebsstatus Ausgang A1
+
