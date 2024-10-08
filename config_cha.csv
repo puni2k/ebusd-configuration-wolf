@@ -11,7 +11,7 @@ r,cha,leistungsklasse,Leistungsklasse,,8,5022,CC3827,leistungsklasse,,UIN,,kW,Le
 r,cha,verdichterstarts,Verdichterstarts,,8,5022,CC2602;CC2702,verdichterstarts,,ULG,,,Verdichterstarts,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 r,cha,betriebsstunden,Netzbetriebsstunden,,8,5022,CC2802;CC2902,betriebsstunden,,ULG,,h,Netzbetriebsstunden,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 r,cha,laufzeit_verdichter,Laufzeit Verdichter,,8,5022,CC2A02,laufzeit_verdichter,,UIN,,h,Laufzeit Verdichter,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-r,cha,heizkreisdurchfluss,Heizkreisdurchfluss,,8,5022,CCD917,heizkreisdurchfluss,,UIN,,l/min,Heizkreisdurchfluss,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+r,cha,heizkreisdurchfluss,Heizkreisdurchfluss,,8,5022,CCD917,heizkreisdurchfluss,,UIN,10,l/min,Heizkreisdurchfluss,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 r,cha,sammlertemp,Sammlertemperatur,,8,5022,CC1727,sammlertemp,,SIN,10,°C,Sammlertemperatur,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 r,cha,anlagendruck,Anlagendruck,,8,5022,CC1A27,anlagendruck,,SIN,100,bar,Anlagendruck,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 r,cha,eingang_e1,Eingang E1,,8,5022,CC1627,eingang_e1,,SIN,10,°C,Eingang E1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
