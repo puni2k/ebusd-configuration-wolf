@@ -30,7 +30,7 @@ r,cha,ablufttemp,Ablufttemperatur,,8,5022,CC1333,ablufttemp,,SIN,10,°C,Abluftte
 r,cha,kesseltemp_2,Kesseltemperatur 2,,8,5022,CC5830,kesseltemp_2,,SIN,100,°C,Kesseltemperatur 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 r,cha,kuehlleistung,Kühlleistung,,8,5022,CC5B30,kuehlleistung,,SIN,10,kW,Kühlleistung,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 r,cha,heizleistung,Heizleistung,,8,5022,CC5C30,heizleistung,,SIN,10,kW,Heizleistung,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-r,cha,drehzahl_ventilator,Drehzahl Ventilator,,8,5022,CC5F30,drehzahl_ventilator,,UIN,,U/min,Drehzahl Ventilator,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+r,cha,drehzahl_ventilator,Drehzahl Ventilator,,8,5022,CC6327,drehzahl_ventilator,,UIN,,U/min,Drehzahl Ventilator,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 r,cha,verdichterfrequenz,Verdichterfrequenz,,8,5022,CC6130,verdichterfrequenz,,UIN,,Hz,Verdichterfrequenz,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 r,cha,leistung_wp_ehz,Leistungsaufnahme (WP + EHZ),,8,5022,CC6530,leistung_wp_ehz,,SIN,10,kW,Leistungsaufnahme (WP + EHZ),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 r,cha,betriebsart,Betriebsart Heizgerät,,8,5022,CC6730,betriebsart,,UIN,0x00=ODU Test;0x01=Test 2;0x02=Frostschutz;0x03=Frostschutz Warmwasser;0x04=Durchfluss gering;0x05=Vorwärmung;0x06=Abtaubetrieb;0x07=Antilegionellenfunktion;0x08=Warmwasserbetrieb;0x09=WW-Nachlauf;0x0A=Heizbetrieb;0x0B=HZ-Nachlauf;0x0C=Aktive Kühlung;0x0D=Kaskade;0x0E=GLT;0x0F=Standby;0x10=Pump Down;0x11=Nachlauf;0x12=Undefiniert,,Betriebsart Heizgerät,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
