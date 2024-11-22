@@ -5,4 +5,4 @@ Verified:
 - MM-2 (Most messages have to be requested by polling and have to be chosen according to the configuration of the MM-2)
 
 
-Note: configuration files mostly include only status fields. Configuration parameters are intentionally not included.
+Note: configuration files mostly include only status fields. Only a selected amount of configuration parameters are included.

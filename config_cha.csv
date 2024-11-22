@@ -60,3 +60,8 @@ r,cha,vorjahr_jaz,Energie Vorjahr (JAZ),,8,5022,CC0033,vorjahr_jaz,,SIN,10,,Ener
 r,cha,status_nachtbetrieb,Status Nachtbetrieb,,8,5022,CC792A,status_nachtbetrieb,,UIN,0x00=Aus;0x01=Ein,,Status Nachtbetrieb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 r,cha,betriebsart_ww,Warmwasser Betriebsart,,8,5022,CC1733,betriebsart_ww,,UIN,0x00=Effizient;0x01=Schnell,,Warmwasser Betriebsart,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 r,cha,betriebsart_verdichter,Betriebsart Verdichter,,8,5022,CC1633,betriebsart_verdichter,,UIN,0x00=Leistungsoptimiert;0x01=Schalloptimiert,,Betriebsart Verdichter,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+#config params
+#these don't seem to be regularly reported, so you might need to specify a polling interval or request them manually (i.e. via mqtt command)
+r,cha,wp015_pumpenleistung_hk,WP015 Pumpenleistung HK maximal,,8,5022,CCEE2E,wp015_pumpenleistung_hk,,UIN,,%,WP015 Pumpenleistung HK maximal,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+w,cha,wp015_pumpenleistung_hk,WP015 Pumpenleistung HK maximal,,8,5023,00EE2E,wp015_pumpenleistung_hk,,UIN,,%,WP015 Pumpenleistung HK maximal,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
