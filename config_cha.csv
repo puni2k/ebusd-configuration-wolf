@@ -76,137 +76,137 @@ r,cha,erzeugte_waermemenge_vorvorjahr,Erzeugte Wärmemenge Vorvorjahr,,08,5022,C
 r,cha,jaz_vorvorjahr,JAZ Vorvorjahr,,08,5022,CC3133,jaz_vorvorjahr,,SIN,10,,JAZ Vorvorjahr
 r,cha,warmwasser_betriebsart,Warmwasser Betriebsart,,08,5022,CC1733,warmwasser_betriebsart,,UIN,0x00=Effizient;0x01=Schnell,,Warmwasser Betriebsart
 r,cha,betriebsart_verdichter,Betriebsart Verdichter,,08,5022,CC1633,betriebsart_verdichter,,UIN,0x00=Leistungsoptimiert;0x01=Schalloptimiert,,Betriebsart Verdichter
-r,cha,anlagenkonfiguration,Anlagenkonfiguration,,08,5022,CCC832,anlagenkonfiguration,,UIN,0x00=Konfiguration 1;0x01=Konfiguration 2;0x02=Konfiguration 11;0x03=Konfiguration 12;0x04=Konfiguration 51;0x05=Konfiguration 52,,Anlagenkonfiguration
-w,cha,anlagenkonfiguration,Anlagenkonfiguration,,08,5023,00C832,anlagenkonfiguration,,UIN,0x00=Konfiguration 1;0x01=Konfiguration 2;0x02=Konfiguration 11;0x03=Konfiguration 12;0x04=Konfiguration 51;0x05=Konfiguration 52,,Anlagenkonfiguration
-r,cha,funktion_eingang_e1,Funktion Eingang E1,,08,5022,CCC932,funktion_eingang_e1,,UIN,0x00=Keine Funktion;0x01=RT;0x02=WW;0x03=RT / WW;0x04=Zirkomat;0x05=MaxTh;0x06=KühlTh;0x07=SAF Kühlen;0x08=PV;0x09=Ext. Störung;0x0a=Pool,,Funktion Eingang E1
-w,cha,funktion_eingang_e1,Funktion Eingang E1,,08,5023,00C932,funktion_eingang_e1,,UIN,0x00=Keine Funktion;0x01=RT;0x02=WW;0x03=RT / WW;0x04=Zirkomat;0x05=MaxTh;0x06=KühlTh;0x07=SAF Kühlen;0x08=PV;0x09=Ext. Störung;0x0a=Pool,,Funktion Eingang E1
-r,cha,funktion_ausgang_a1,Funktion Ausgang A1,,08,5022,CCCA32,funktion_ausgang_a1,,UIN,0x00=Keine Funktion;0x01=Zirkulationspumpe 20%;0x02=Zirkulationspumpe 50%;0x03=Zirkulationspumpe 100%;0x04=Alarmausgang;0x05=Zirkomat;0x06=Abtauen;0x07=ZWE;0x08=Verdichter EIN;0x09=EHZ Ein;0x0a=ZUP extern;0x0b=Kühlung ein;0x0c=Pool,,Funktion Ausgang A1
-w,cha,funktion_ausgang_a1,Funktion Ausgang A1,,08,5023,00CA32,funktion_ausgang_a1,,UIN,0x00=Keine Funktion;0x01=Zirkulationspumpe 20%;0x02=Zirkulationspumpe 50%;0x03=Zirkulationspumpe 100%;0x04=Alarmausgang;0x05=Zirkomat;0x06=Abtauen;0x07=ZWE;0x08=Verdichter EIN;0x09=EHZ Ein;0x0a=ZUP extern;0x0b=Kühlung ein;0x0c=Pool,,Funktion Ausgang A1
-r,cha,funktion_eingang_e3,Funktion Eingang E3,,08,5022,CCCB32,funktion_eingang_e3,,UIN,0x00=Keine Funktion;0x01=RT;0x02=WW;0x03=RT / WW;0x04=Zirkomat;0x05=MaxTh;0x06=KühlTh;0x07=SAF Kühlen;0x08=PV;0x09=Ext. Störung;0x0a=Pool,,Funktion Eingang E3
-w,cha,funktion_eingang_e3,Funktion Eingang E3,,08,5023,00CB32,funktion_eingang_e3,,UIN,0x00=Keine Funktion;0x01=RT;0x02=WW;0x03=RT / WW;0x04=Zirkomat;0x05=MaxTh;0x06=KühlTh;0x07=SAF Kühlen;0x08=PV;0x09=Ext. Störung;0x0a=Pool,,Funktion Eingang E3
-r,cha,funktion_ausgang_a3,Funktion Ausgang A3,,08,5022,CCCC32,funktion_ausgang_a3,,UIN,0x00=Keine Funktion;0x01=Zirkulationspumpe 20%;0x02=Zirkulationspumpe 50%;0x03=Zirkulationspumpe 100%;0x04=Alarmausgang;0x05=Zirkomat;0x06=Abtauen;0x07=ZWE;0x08=Verdichter EIN;0x09=EHZ Ein;0x0a=ZUP extern;0x0b=Kühlung ein;0x0c=Pool,,Funktion Ausgang A3
-w,cha,funktion_ausgang_a3,Funktion Ausgang A3,,08,5023,000032,funktion_ausgang_a3,,UIN,0x00=Keine Funktion;0x01=Zirkulationspumpe 20%;0x02=Zirkulationspumpe 50%;0x03=Zirkulationspumpe 100%;0x04=Alarmausgang;0x05=Zirkomat;0x06=Abtauen;0x07=ZWE;0x08=Verdichter EIN;0x09=EHZ Ein;0x0a=ZUP extern;0x0b=Kühlung ein;0x0c=Pool,,Funktion Ausgang A3
-r,cha,funktion_eingang_e4,Funktion Eingang E4,,08,5022,CCCD32,funktion_eingang_e4,,UIN,0x00=Keine Funktion;0x01=RT;0x02=WW;0x03=RT / WW;0x04=Zirkomat;0x05=MaxTh;0x06=KühlTh;0x07=SAF Kühlen;0x08=PV;0x09=Ext. Störung;0x0a=Pool,,Funktion Eingang E4
-w,cha,funktion_eingang_e4,Funktion Eingang E4,,08,5023,00CD32,funktion_eingang_e4,,UIN,0x00=Keine Funktion;0x01=RT;0x02=WW;0x03=RT / WW;0x04=Zirkomat;0x05=MaxTh;0x06=KühlTh;0x07=SAF Kühlen;0x08=PV;0x09=Ext. Störung;0x0a=Pool,,Funktion Eingang E4
-r,cha,funktion_ausgang_a4,Funktion Ausgang A4,,08,5022,CCCE32,funktion_ausgang_a4,,UIN,0x00=Keine Funktion;0x01=Zirkulationspumpe 20%;0x02=Zirkulationspumpe 50%;0x03=Zirkulationspumpe 100%;0x04=Alarmausgang;0x05=Zirkomat;0x06=Abtauen;0x07=ZWE;0x08=Verdichter EIN;0x09=EHZ Ein;0x0a=ZUP extern;0x0b=Kühlung ein;0x0c=Pool,,Funktion Ausgang A4
-w,cha,funktion_ausgang_a4,Funktion Ausgang A4,,08,5023,00CE32,funktion_ausgang_a4,,UIN,0x00=Keine Funktion;0x01=Zirkulationspumpe 20%;0x02=Zirkulationspumpe 50%;0x03=Zirkulationspumpe 100%;0x04=Alarmausgang;0x05=Zirkomat;0x06=Abtauen;0x07=ZWE;0x08=Verdichter EIN;0x09=EHZ Ein;0x0a=ZUP extern;0x0b=Kühlung ein;0x0c=Pool,,Funktion Ausgang A4
-r,cha,temperaturueberhoehung_sammler,Temperaturüberhöhung Sammler,,08,5022,CCCF32,temperaturueberhoehung_sammler,,SIN,10,K,Temperaturüberhöhung Sammler
-w,cha,temperaturueberhoehung_sammler,Temperaturüberhöhung Sammler,,08,5023,00CF32,temperaturueberhoehung_sammler,,SIN,10,K,Temperaturüberhöhung Sammler
-r,cha,soll_spreizung,Soll-Spreizung,,08,5022,CCE92E,soll_spreizung,,SIN,10,K,Soll-Spreizung
-w,cha,soll_spreizung,Soll-Spreizung,,08,5023,00E92E,soll_spreizung,,SIN,10,K,Soll-Spreizung
-r,cha,hysterese_heizbetrieb,Hysterese Heizbetrieb,,08,5022,CCD032,hysterese_heizbetrieb,,SIN,10,K,Hysterese Heizbetrieb
-w,cha,hysterese_heizbetrieb,Hysterese Heizbetrieb,,08,5023,00D032,hysterese_heizbetrieb,,SIN,10,K,Hysterese Heizbetrieb
-r,cha,nachlauf_zhp,Nachlauf ZHP,,08,5022,CCD132,nachlauf_zhp,,UIN,,min,Nachlauf ZHP
-w,cha,nachlauf_zhp,Nachlauf ZHP,,08,5023,00D132,nachlauf_zhp,,UIN,,min,Nachlauf ZHP
-r,cha,verzoegerung_zwe_heizung,Verzögerung ZWE Heizung,,08,5022,CCEC2E,verzoegerung_zwe_heizung,,UIN,,min,Verzögerung ZWE Heizung
-w,cha,verzoegerung_zwe_heizung,Verzögerung ZWE Heizung,,08,5023,00EC2E,verzoegerung_zwe_heizung,,UIN,,min,Verzögerung ZWE Heizung
-r,cha,nachlauf_hkp,Nachlauf HKP,,08,5022,CCD232,nachlauf_hkp,,UIN,,min,Nachlauf HKP
-w,cha,nachlauf_hkp,Nachlauf HKP,,08,5023,00D232,nachlauf_hkp,,UIN,,min,Nachlauf HKP
-r,cha,pumpenleistung_hk_maximal,Pumpenleistung HK maximal,,08,5022,CCEE2E,pumpenleistung_hk_maximal,,UIN,,%,Pumpenleistung HK maximal
-w,cha,pumpenleistung_hk_maximal,Pumpenleistung HK maximal,,08,5023,00EE2E,pumpenleistung_hk_maximal,,UIN,,%,Pumpenleistung HK maximal
-r,cha,freigabe_spreizungsregelung,Freigabe Spreizungsregelung,,08,5022,CCEF2E,freigabe_spreizungsregelung,,UIN,0x00=Aus;0x01=Ein,,Freigabe Spreizungsregelung
-w,cha,freigabe_spreizungsregelung,Freigabe Spreizungsregelung,,08,5023,00EF2E,freigabe_spreizungsregelung,,UIN,0x00=Aus;0x01=Ein,,Freigabe Spreizungsregelung
-r,cha,kesselmaximaltemp_hz_tv_max,Kesselmaximaltemp HZ TV-max,,08,5022,CCD332,kesselmaximaltemp_hz_tv_max,,SIN,10,°C,Kesselmaximaltemp HZ TV-max
-w,cha,kesselmaximaltemp_hz_tv_max,Kesselmaximaltemp HZ TV-max,,08,5023,00D332,kesselmaximaltemp_hz_tv_max,,SIN,10,°C,Kesselmaximaltemp HZ TV-max
-r,cha,kesselminimaltemp_tk_min,Kesselminimaltemp TK-min,,08,5022,CCF12E,kesselminimaltemp_tk_min,,SIN,10,°C,Kesselminimaltemp TK-min
-w,cha,kesselminimaltemp_tk_min,Kesselminimaltemp TK-min,,08,5023,00F12E,kesselminimaltemp_tk_min,,SIN,10,°C,Kesselminimaltemp TK-min
-r,cha,pumpenleistung_hk_minimal,Pumpenleistung HK minimal,,08,5022,CCD432,pumpenleistung_hk_minimal,,UIN,,%,Pumpenleistung HK minimal
-w,cha,pumpenleistung_hk_minimal,Pumpenleistung HK minimal,,08,5023,00D432,pumpenleistung_hk_minimal,,UIN,,%,Pumpenleistung HK minimal
-r,cha,hysterese_warmwasserbetrieb,Hysterese Warmwasserbetrieb,,08,5022,CCD532,hysterese_warmwasserbetrieb,,SIN,10,°C,Hysterese Warmwasserbetrieb
-w,cha,hysterese_warmwasserbetrieb,Hysterese Warmwasserbetrieb,,08,5023,00D532,hysterese_warmwasserbetrieb,,SIN,10,°C,Hysterese Warmwasserbetrieb
-r,cha,freigabe_max_zeit_warmwasserbetrieb,Freigabe max. Zeit Warmwasserbetrieb,,08,5022,CCF42E,freigabe_max_zeit_warmwasserbetrieb,,UIN,0x00=Aus;0x01=Ein,,Freigabe max. Zeit Warmwasserbetrieb
-w,cha,freigabe_max_zeit_warmwasserbetrieb,Freigabe max. Zeit Warmwasserbetrieb,,08,5023,00F42E,freigabe_max_zeit_warmwasserbetrieb,,UIN,0x00=Aus;0x01=Ein,,Freigabe max. Zeit Warmwasserbetrieb
-r,cha,max_zeit_warmwasserbetrieb,Max. Zeit Warmwasserbetrieb,,08,5022,CC8001,max_zeit_warmwasserbetrieb,,UIN,,min,Max. Zeit Warmwasserbetrieb
-w,cha,max_zeit_warmwasserbetrieb,Max. Zeit Warmwasserbetrieb,,08,5023,008001,max_zeit_warmwasserbetrieb,,UIN,,min,Max. Zeit Warmwasserbetrieb
-r,cha,verz_zwe_warmwasserbetrieb,Verz. ZWE Warmwasserbetrieb,,08,5022,CCF62E,verz_zwe_warmwasserbetrieb,,UIN,,min,Verz. ZWE Warmwasserbetrieb
-w,cha,verz_zwe_warmwasserbetrieb,Verz. ZWE Warmwasserbetrieb,,08,5023,00F62E,verz_zwe_warmwasserbetrieb,,UIN,,min,Verz. ZWE Warmwasserbetrieb
-r,cha,sg_pv,SG/PV,,08,5022,CCD832,sg_pv,,UIN,0x00=PV;0x01=SG,,SG/PV
-w,cha,sg_pv,SG/PV,,08,5023,00D832,sg_pv,,UIN,0x00=PV;0x01=SG,,SG/PV
-r,cha,externe_anhebung_hz,Externe Anhebung HZ,,08,5022,CCD932,externe_anhebung_hz,,SIN,10,°C,Externe Anhebung HZ
-w,cha,externe_anhebung_hz,Externe Anhebung HZ,,08,5023,00D932,externe_anhebung_hz,,SIN,10,°C,Externe Anhebung HZ
-r,cha,externe_anhebung_ww,Externe Anhebung WW,,08,5022,CCDA32,externe_anhebung_ww,,SIN,10,°C,Externe Anhebung WW
-w,cha,externe_anhebung_ww,Externe Anhebung WW,,08,5023,00DA32,externe_anhebung_ww,,SIN,10,°C,Externe Anhebung WW
-r,cha,wez_management_bei_sg_pv,WEZ-Management bei SG/PV,,08,5022,CCDB32,wez_management_bei_sg_pv,,UIN,0x00=Standard;0x01=WP;0x02=EHZ;0x03=WP + EHZ parallel,,WEZ-Management bei SG/PV
-w,cha,wez_management_bei_sg_pv,WEZ-Management bei SG/PV,,08,5023,00DB32,wez_management_bei_sg_pv,,UIN,0x00=Standard;0x01=WP;0x02=EHZ;0x03=WP + EHZ parallel,,WEZ-Management bei SG/PV
-r,cha,busadresse,Busadresse,,08,5022,CCFE2E,busadresse,,UIN,,,Busadresse
-w,cha,busadresse,Busadresse,,08,5023,00FE2E,busadresse,,UIN,,,Busadresse
-r,cha,auswirkung_sg_pv_auf_heizbetrieb,Auswirkung SG/PV auf Heizbetrieb,,08,5022,CCFF2E,auswirkung_sg_pv_auf_heizbetrieb,,UIN,0x00=Aus;0x01=Ein,,Auswirkung SG/PV auf Heizbetrieb
-w,cha,auswirkung_sg_pv_auf_heizbetrieb,Auswirkung SG/PV auf Heizbetrieb,,08,5023,00FF2E,auswirkung_sg_pv_auf_heizbetrieb,,UIN,0x00=Aus;0x01=Ein,,Auswirkung SG/PV auf Heizbetrieb
-r,cha,auswirkung_sg_pv_auf_kuehlbetrieb,Auswirkung SG/PV auf Kühlbetrieb,,08,5022,CC002F,auswirkung_sg_pv_auf_kuehlbetrieb,,UIN,0x00=Aus;0x01=Ein,,Auswirkung SG/PV auf Kühlbetrieb
-w,cha,auswirkung_sg_pv_auf_kuehlbetrieb,Auswirkung SG/PV auf Kühlbetrieb,,08,5023,00002F,auswirkung_sg_pv_auf_kuehlbetrieb,,UIN,0x00=Aus;0x01=Ein,,Auswirkung SG/PV auf Kühlbetrieb
-r,cha,bivalenzpunkt_verdichter_sg_pv,Bivalenzpunkt Verdichter SG/PV,,08,5022,CCDC32,bivalenzpunkt_verdichter_sg_pv,,SIN,10,°C,Bivalenzpunkt Verdichter SG/PV
-w,cha,bivalenzpunkt_verdichter_sg_pv,Bivalenzpunkt Verdichter SG/PV,,08,5023,00DC32,bivalenzpunkt_verdichter_sg_pv,,SIN,10,°C,Bivalenzpunkt Verdichter SG/PV
-r,cha,bivalenzpunkt_ehz_sg_pv,Bivalenzpunkt EHZ SG/PV,,08,5022,CCDD32,bivalenzpunkt_ehz_sg_pv,,SIN,10,°C,Bivalenzpunkt EHZ SG/PV
-w,cha,bivalenzpunkt_ehz_sg_pv,Bivalenzpunkt EHZ SG/PV,,08,5023,00DD32,bivalenzpunkt_ehz_sg_pv,,SIN,10,°C,Bivalenzpunkt EHZ SG/PV
-r,cha,bivalenzpunkt_zwe_sg_pv,Bivalenzpunkt ZWE SG/PV,,08,5022,CCDE32,bivalenzpunkt_zwe_sg_pv,,SIN,10,°C,Bivalenzpunkt ZWE SG/PV
-w,cha,bivalenzpunkt_zwe_sg_pv,Bivalenzpunkt ZWE SG/PV,,08,5023,00DE32,bivalenzpunkt_zwe_sg_pv,,SIN,10,°C,Bivalenzpunkt ZWE SG/PV
-r,cha,externe_absenkung_k,Externe Absenkung K,,08,5022,CC0733,externe_absenkung_k,,SIN,10,°C,Externe Absenkung K
-w,cha,externe_absenkung_k,Externe Absenkung K,,08,5023,000733,externe_absenkung_k,,SIN,10,°C,Externe Absenkung K
-r,cha,pumpenleistung_ww,Pumpenleistung WW,,08,5022,CCDF32,pumpenleistung_ww,,UIN,,%,Pumpenleistung WW
-w,cha,pumpenleistung_ww,Pumpenleistung WW,,08,5023,00DF32,pumpenleistung_ww,,UIN,,%,Pumpenleistung WW
-r,cha,vorlauftemperatur_fuer_poolbetrieb,Vorlauftemperatur für Poolbetrieb,,08,5022,CC2A33,vorlauftemperatur_fuer_poolbetrieb,,SIN,10,°C,Vorlauftemperatur für Poolbetrieb
-w,cha,vorlauftemperatur_fuer_poolbetrieb,Vorlauftemperatur für Poolbetrieb,,08,5023,002A33,vorlauftemperatur_fuer_poolbetrieb,,SIN,10,°C,Vorlauftemperatur für Poolbetrieb
-r,cha,verzoegerung_zwe_poolbetrieb,Verzögerung ZWE Poolbetrieb,,08,5022,CC2B33,verzoegerung_zwe_poolbetrieb,,UIN,,min,Verzögerung ZWE Poolbetrieb
-w,cha,verzoegerung_zwe_poolbetrieb,Verzögerung ZWE Poolbetrieb,,08,5023,002B33,verzoegerung_zwe_poolbetrieb,,UIN,,min,Verzögerung ZWE Poolbetrieb
-r,cha,freigabe_zwe_poolbetrieb,Freigabe ZWE Poolbetrieb,,08,5022,CC2C33,freigabe_zwe_poolbetrieb,,UIN,0x00=Aus;0x01=Ein,,Freigabe ZWE Poolbetrieb
-w,cha,freigabe_zwe_poolbetrieb,Freigabe ZWE Poolbetrieb,,08,5023,002C33,freigabe_zwe_poolbetrieb,,UIN,0x00=Aus;0x01=Ein,,Freigabe ZWE Poolbetrieb
-r,cha,aussentemp_freigabe_kuehlbetrieb,Aussentemp. Freigabe Kühlbetrieb,,08,5022,CC142F,aussentemp_freigabe_kuehlbetrieb,,SIN,10,°C,Aussentemp. Freigabe Kühlbetrieb
-w,cha,aussentemp_freigabe_kuehlbetrieb,Aussentemp. Freigabe Kühlbetrieb,,08,5023,00142F,aussentemp_freigabe_kuehlbetrieb,,SIN,10,°C,Aussentemp. Freigabe Kühlbetrieb
-r,cha,min_vorlauftemperatur_fuer_kuehlbetrieb,Min. Vorlauftemperatur für Kühlbetrieb,,08,5022,CCE032,min_vorlauftemperatur_fuer_kuehlbetrieb,,SIN,10,°C,Min. Vorlauftemperatur für Kühlbetrieb
-w,cha,min_vorlauftemperatur_fuer_kuehlbetrieb,Min. Vorlauftemperatur für Kühlbetrieb,,08,5023,00E032,min_vorlauftemperatur_fuer_kuehlbetrieb,,SIN,10,°C,Min. Vorlauftemperatur für Kühlbetrieb
-r,cha,freigabe_kuehlbetrieb,Freigabe Kühlbetrieb,,08,5022,CC192F,freigabe_kuehlbetrieb,,UIN,0x00=Aus;0x01=Ein,,Freigabe Kühlbetrieb
-w,cha,freigabe_kuehlbetrieb,Freigabe Kühlbetrieb,,08,5023,00192F,freigabe_kuehlbetrieb,,UIN,0x00=Aus;0x01=Ein,,Freigabe Kühlbetrieb
-r,cha,hysterese_kuehlbetrieb,Hysterese Kühlbetrieb,,08,5022,CCE132,hysterese_kuehlbetrieb,,SIN,10,K,Hysterese Kühlbetrieb
-w,cha,hysterese_kuehlbetrieb,Hysterese Kühlbetrieb,,08,5023,00E132,hysterese_kuehlbetrieb,,SIN,10,K,Hysterese Kühlbetrieb
-r,cha,nachtbetrieb_ende,Nachtbetrieb Ende,,08,5022,CC1C2F,nachtbetrieb_ende,,BTI,,,Nachtbetrieb Ende
-w,cha,nachtbetrieb_ende,Nachtbetrieb Ende,,08,5023,001C2F,nachtbetrieb_ende,,BTI,,,Nachtbetrieb Ende
-r,cha,nachtbetrieb_start,Nachtbetrieb Start,,08,5022,CC1D2F,nachtbetrieb_start,,BTI,,,Nachtbetrieb Start
-w,cha,nachtbetrieb_start,Nachtbetrieb Start,,08,5023,001D2F,nachtbetrieb_start,,BTI,,,Nachtbetrieb Start
-r,cha,limitierung_nachtbetrieb,Limitierung Nachtbetrieb,,08,5022,CCE232,limitierung_nachtbetrieb,,UIN,,%,Limitierung Nachtbetrieb
-w,cha,limitierung_nachtbetrieb,Limitierung Nachtbetrieb,,08,5023,00E232,limitierung_nachtbetrieb,,UIN,,%,Limitierung Nachtbetrieb
-r,cha,limitierung_tagbetrieb,Limitierung Tagbetrieb,,08,5022,CCE332,limitierung_tagbetrieb,,UIN,,%,Limitierung Tagbetrieb
-w,cha,limitierung_tagbetrieb,Limitierung Tagbetrieb,,08,5023,00E332,limitierung_tagbetrieb,,UIN,,%,Limitierung Tagbetrieb
-r,cha,aktivierung_nachtbetrieb,Aktivierung Nachtbetrieb,,08,5022,CCE62E,aktivierung_nachtbetrieb,,UIN,0x00=Aus;0x01=Ein,,Aktivierung Nachtbetrieb
-w,cha,aktivierung_nachtbetrieb,Aktivierung Nachtbetrieb,,08,5023,00E62E,aktivierung_nachtbetrieb,,UIN,0x00=Aus;0x01=Ein,,Aktivierung Nachtbetrieb
-r,cha,t_zuluft_keine_abtauung,T_Zuluft keine Abtauung,,08,5022,CCE432,t_zuluft_keine_abtauung,,SIN,10,°C,T_Zuluft keine Abtauung
-w,cha,t_zuluft_keine_abtauung,T_Zuluft keine Abtauung,,08,5023,00E432,t_zuluft_keine_abtauung,,SIN,10,°C,T_Zuluft keine Abtauung
-r,cha,sperrzeit_abtauung,Sperrzeit Abtauung,,08,5022,CCE532,sperrzeit_abtauung,,UIN,,min,Sperrzeit Abtauung
-w,cha,sperrzeit_abtauung,Sperrzeit Abtauung,,08,5023,00E532,sperrzeit_abtauung,,UIN,,min,Sperrzeit Abtauung
-r,cha,max_zeit_abtaubetrieb,Max. Zeit Abtaubetrieb,,08,5022,CCE632,max_zeit_abtaubetrieb,,UIN,,min,Max. Zeit Abtaubetrieb
-w,cha,max_zeit_abtaubetrieb,Max. Zeit Abtaubetrieb,,08,5023,00E632,max_zeit_abtaubetrieb,,UIN,,min,Max. Zeit Abtaubetrieb
-r,cha,laufzeit_luefter_nach_abtaubetrieb,Laufzeit Lüfter nach Abtaubetrieb,,08,5022,CCE732,laufzeit_luefter_nach_abtaubetrieb,,UIN,,sec,Laufzeit Lüfter nach Abtaubetrieb
-w,cha,laufzeit_luefter_nach_abtaubetrieb,Laufzeit Lüfter nach Abtaubetrieb,,08,5023,00E732,laufzeit_luefter_nach_abtaubetrieb,,UIN,,sec,Laufzeit Lüfter nach Abtaubetrieb
-r,cha,bivalenzpunkt_verdichter,Bivalenzpunkt Verdichter,,08,5022,CCE832,bivalenzpunkt_verdichter,,SIN,10,°C,Bivalenzpunkt Verdichter
-w,cha,bivalenzpunkt_verdichter,Bivalenzpunkt Verdichter,,08,5023,00E832,bivalenzpunkt_verdichter,,SIN,10,°C,Bivalenzpunkt Verdichter
-r,cha,freigabe_e_heizung_fuer_hz_betrieb,Freigabe E-Heizung für HZ-Betrieb,,08,5022,CC392F,freigabe_e_heizung_fuer_hz_betrieb,,UIN,0x00=Aus;0x01=Ein,,Freigabe E-Heizung für HZ-Betrieb
-w,cha,freigabe_e_heizung_fuer_hz_betrieb,Freigabe E-Heizung für HZ-Betrieb,,08,5023,00392F,freigabe_e_heizung_fuer_hz_betrieb,,UIN,0x00=Aus;0x01=Ein,,Freigabe E-Heizung für HZ-Betrieb
-r,cha,bivalenzpunkt_e_heizung,Bivalenzpunkt E-Heizung,,08,5022,CCE932,bivalenzpunkt_e_heizung,,SIN,10,°C,Bivalenzpunkt E-Heizung
-w,cha,bivalenzpunkt_e_heizung,Bivalenzpunkt E-Heizung,,08,5023,00E932,bivalenzpunkt_e_heizung,,SIN,10,°C,Bivalenzpunkt E-Heizung
-r,cha,evu_sperre_fuer_e_heizung,EVU-Sperre für E-Heizung,,08,5022,CC3B2F,evu_sperre_fuer_e_heizung,,UIN,0x00=Aus;0x01=Ein,,EVU-Sperre für E-Heizung
-w,cha,evu_sperre_fuer_e_heizung,EVU-Sperre für E-Heizung,,08,5023,003B2F,evu_sperre_fuer_e_heizung,,UIN,0x00=Aus;0x01=Ein,,EVU-Sperre für E-Heizung
-r,cha,typ_e_heizung,Typ E-Heizung,,08,5022,CCEA32,typ_e_heizung,,UIN,0x00=Keine;0x01=3 kW;0x02=6 kW;0x03=9 kW,,Typ E-Heizung
-w,cha,typ_e_heizung,Typ E-Heizung,,08,5023,00EA32,typ_e_heizung,,UIN,0x00=Keine;0x01=3 kW;0x02=6 kW;0x03=9 kW,,Typ E-Heizung
-r,cha,freigabe_ehz_warmwasserbetrieb,Freigabe EHZ Warmwasserbetrieb,,08,5022,CCEB32,freigabe_ehz_warmwasserbetrieb,,UIN,0x00=Aus;0x01=Ein,,Freigabe EHZ Warmwasserbetrieb
-w,cha,freigabe_ehz_warmwasserbetrieb,Freigabe EHZ Warmwasserbetrieb,,08,5023,00EB32,freigabe_ehz_warmwasserbetrieb,,UIN,0x00=Aus;0x01=Ein,,Freigabe EHZ Warmwasserbetrieb
-r,cha,bivalenzpunkt_zwe,Bivalenzpunkt ZWE,,08,5022,CCEC32,bivalenzpunkt_zwe,,SIN,10,°C,Bivalenzpunkt ZWE
-w,cha,bivalenzpunkt_zwe,Bivalenzpunkt ZWE,,08,5023,00EC32,bivalenzpunkt_zwe,,SIN,10,°C,Bivalenzpunkt ZWE
-r,cha,prioritaet_zwe_heizbetrieb,Priorität ZWE Heizbetrieb,,08,5022,CCED32,prioritaet_zwe_heizbetrieb,,UIN,,,Priorität ZWE Heizbetrieb
-w,cha,prioritaet_zwe_heizbetrieb,Priorität ZWE Heizbetrieb,,08,5023,00ED32,prioritaet_zwe_heizbetrieb,,UIN,,,Priorität ZWE Heizbetrieb
-r,cha,prioritaet_zwe_warmwasserbetrieb,Priorität ZWE Warmwasserbetrieb,,08,5022,CCEE32,prioritaet_zwe_warmwasserbetrieb,,UIN,,,Priorität ZWE Warmwasserbetrieb
-w,cha,prioritaet_zwe_warmwasserbetrieb,Priorität ZWE Warmwasserbetrieb,,08,5023,00EE32,prioritaet_zwe_warmwasserbetrieb,,UIN,,,Priorität ZWE Warmwasserbetrieb
-r,cha,zwe_ueber_e_bus,ZWE über eBus,,08,5022,CC472F,zwe_ueber_e_bus,,UIN,0x00=Aus;0x01=Ein,,ZWE über eBus
-w,cha,zwe_ueber_e_bus,ZWE über eBus,,08,5023,00472F,zwe_ueber_e_bus,,UIN,0x00=Aus;0x01=Ein,,ZWE über eBus
-r,cha,evu_sperre_zwe,EVU-Sperre ZWE,,08,5022,CC1A33,evu_sperre_zwe,,UIN,0x00=Aus;0x01=Ein,,EVU-Sperre ZWE
-w,cha,evu_sperre_zwe,EVU-Sperre ZWE,,08,5023,001A33,evu_sperre_zwe,,UIN,0x00=Aus;0x01=Ein,,EVU-Sperre ZWE
-r,cha,wertigkeit_der_s0_impulse_cha,Wertigkeit der S0-Impulse CHA,,08,5022,CCEF32,wertigkeit_der_s0_impulse_cha,,UIN,,pls/kWh,Wertigkeit der S0-Impulse CHA
-w,cha,wertigkeit_der_s0_impulse_cha,Wertigkeit der S0-Impulse CHA,,08,5023,00EF32,wertigkeit_der_s0_impulse_cha,,UIN,,pls/kWh,Wertigkeit der S0-Impulse CHA
-r,cha,wertigkeit_der_s0_impulse_einspeisezaehler,Wertigkeit der S0-Impulse Einspeisezähler,,08,5022,CCF032,wertigkeit_der_s0_impulse_einspeisezaehler,,UIN,,pls/kWh,Wertigkeit der S0-Impulse Einspeisezähler
-w,cha,wertigkeit_der_s0_impulse_einspeisezaehler,Wertigkeit der S0-Impulse Einspeisezähler,,08,5023,00F032,wertigkeit_der_s0_impulse_einspeisezaehler,,UIN,,pls/kWh,Wertigkeit der S0-Impulse Einspeisezähler
-r,cha,aktueller_energiepreis_zwe,Aktueller Energiepreis ZWE,,08,5022,CCF232,aktueller_energiepreis_zwe,,SIN,10,Cent/kWh,Aktueller Energiepreis ZWE
-w,cha,aktueller_energiepreis_zwe,Aktueller Energiepreis ZWE,,08,5023,00F232,aktueller_energiepreis_zwe,,SIN,10,Cent/kWh,Aktueller Energiepreis ZWE
-r,cha,aktueller_strompreis,Aktueller Strompreis,,08,5022,CCF332,aktueller_strompreis,,SIN,10,Cent/kWh,Aktueller Strompreis
-w,cha,aktueller_strompreis,Aktueller Strompreis,,08,5023,00F332,aktueller_strompreis,,SIN,10,Cent/kWh,Aktueller Strompreis
-r,cha,hybridbetrieb,Hybridbetrieb,,08,5022,CCF432,hybridbetrieb,,UIN,0x00=Standard;0x01=Ökonomisch;0x02=Ökologisch,,Hybridbetrieb
-w,cha,hybridbetrieb,Hybridbetrieb,,08,5023,00F432,hybridbetrieb,,UIN,0x00=Standard;0x01=Ökonomisch;0x02=Ökologisch,,Hybridbetrieb
-r,cha,verdichter_max_starts_pro_stunde,Verdichter max. Starts pro Stunde,,08,5022,CC582F,verdichter_max_starts_pro_stunde,,UIN,,,Verdichter max. Starts pro Stunde
-w,cha,verdichter_max_starts_pro_stunde,Verdichter max. Starts pro Stunde,,08,5023,00582F,verdichter_max_starts_pro_stunde,,UIN,,,Verdichter max. Starts pro Stunde
+r,cha,anlagenkonfiguration,(WP001) Anlagenkonfiguration,,08,5022,CCC832,anlagenkonfiguration,,UIN,0x00=Konfiguration 1;0x01=Konfiguration 2;0x02=Konfiguration 11;0x03=Konfiguration 12;0x04=Konfiguration 51;0x05=Konfiguration 52,,(WP001) Anlagenkonfiguration
+w,cha,anlagenkonfiguration,(WP001) Anlagenkonfiguration,,08,5023,00C832,anlagenkonfiguration,,UIN,0x00=Konfiguration 1;0x01=Konfiguration 2;0x02=Konfiguration 11;0x03=Konfiguration 12;0x04=Konfiguration 51;0x05=Konfiguration 52,,(WP001) Anlagenkonfiguration
+r,cha,funktion_eingang_e1,(WP002) Funktion Eingang E1,,08,5022,CCC932,funktion_eingang_e1,,UIN,0x00=Keine Funktion;0x01=RT;0x02=WW;0x03=RT / WW;0x04=Zirkomat;0x05=MaxTh;0x06=KühlTh;0x07=SAF Kühlen;0x08=PV;0x09=Ext. Störung;0x0a=Pool,,(WP002) Funktion Eingang E1
+w,cha,funktion_eingang_e1,(WP002) Funktion Eingang E1,,08,5023,00C932,funktion_eingang_e1,,UIN,0x00=Keine Funktion;0x01=RT;0x02=WW;0x03=RT / WW;0x04=Zirkomat;0x05=MaxTh;0x06=KühlTh;0x07=SAF Kühlen;0x08=PV;0x09=Ext. Störung;0x0a=Pool,,(WP002) Funktion Eingang E1
+r,cha,funktion_ausgang_a1,(WP003) Funktion Ausgang A1,,08,5022,CCCA32,funktion_ausgang_a1,,UIN,0x00=Keine Funktion;0x01=Zirkulationspumpe 20%;0x02=Zirkulationspumpe 50%;0x03=Zirkulationspumpe 100%;0x04=Alarmausgang;0x05=Zirkomat;0x06=Abtauen;0x07=ZWE;0x08=Verdichter EIN;0x09=EHZ Ein;0x0a=ZUP extern;0x0b=Kühlung ein;0x0c=Pool,,(WP003) Funktion Ausgang A1
+w,cha,funktion_ausgang_a1,(WP003) Funktion Ausgang A1,,08,5023,00CA32,funktion_ausgang_a1,,UIN,0x00=Keine Funktion;0x01=Zirkulationspumpe 20%;0x02=Zirkulationspumpe 50%;0x03=Zirkulationspumpe 100%;0x04=Alarmausgang;0x05=Zirkomat;0x06=Abtauen;0x07=ZWE;0x08=Verdichter EIN;0x09=EHZ Ein;0x0a=ZUP extern;0x0b=Kühlung ein;0x0c=Pool,,(WP003) Funktion Ausgang A1
+r,cha,funktion_eingang_e3,(WP005) Funktion Eingang E3,,08,5022,CCCB32,funktion_eingang_e3,,UIN,0x00=Keine Funktion;0x01=RT;0x02=WW;0x03=RT / WW;0x04=Zirkomat;0x05=MaxTh;0x06=KühlTh;0x07=SAF Kühlen;0x08=PV;0x09=Ext. Störung;0x0a=Pool,,(WP005) Funktion Eingang E3
+w,cha,funktion_eingang_e3,(WP005) Funktion Eingang E3,,08,5023,00CB32,funktion_eingang_e3,,UIN,0x00=Keine Funktion;0x01=RT;0x02=WW;0x03=RT / WW;0x04=Zirkomat;0x05=MaxTh;0x06=KühlTh;0x07=SAF Kühlen;0x08=PV;0x09=Ext. Störung;0x0a=Pool,,(WP005) Funktion Eingang E3
+r,cha,funktion_ausgang_a3,(WP006) Funktion Ausgang A3,,08,5022,CCCC32,funktion_ausgang_a3,,UIN,0x00=Keine Funktion;0x01=Zirkulationspumpe 20%;0x02=Zirkulationspumpe 50%;0x03=Zirkulationspumpe 100%;0x04=Alarmausgang;0x05=Zirkomat;0x06=Abtauen;0x07=ZWE;0x08=Verdichter EIN;0x09=EHZ Ein;0x0a=ZUP extern;0x0b=Kühlung ein;0x0c=Pool,,(WP006) Funktion Ausgang A3
+w,cha,funktion_ausgang_a3,(WP006) Funktion Ausgang A3,,08,5023,000032,funktion_ausgang_a3,,UIN,0x00=Keine Funktion;0x01=Zirkulationspumpe 20%;0x02=Zirkulationspumpe 50%;0x03=Zirkulationspumpe 100%;0x04=Alarmausgang;0x05=Zirkomat;0x06=Abtauen;0x07=ZWE;0x08=Verdichter EIN;0x09=EHZ Ein;0x0a=ZUP extern;0x0b=Kühlung ein;0x0c=Pool,,(WP006) Funktion Ausgang A3
+r,cha,funktion_eingang_e4,(WP007) Funktion Eingang E4,,08,5022,CCCD32,funktion_eingang_e4,,UIN,0x00=Keine Funktion;0x01=RT;0x02=WW;0x03=RT / WW;0x04=Zirkomat;0x05=MaxTh;0x06=KühlTh;0x07=SAF Kühlen;0x08=PV;0x09=Ext. Störung;0x0a=Pool,,(WP007) Funktion Eingang E4
+w,cha,funktion_eingang_e4,(WP007) Funktion Eingang E4,,08,5023,00CD32,funktion_eingang_e4,,UIN,0x00=Keine Funktion;0x01=RT;0x02=WW;0x03=RT / WW;0x04=Zirkomat;0x05=MaxTh;0x06=KühlTh;0x07=SAF Kühlen;0x08=PV;0x09=Ext. Störung;0x0a=Pool,,(WP007) Funktion Eingang E4
+r,cha,funktion_ausgang_a4,(WP008) Funktion Ausgang A4,,08,5022,CCCE32,funktion_ausgang_a4,,UIN,0x00=Keine Funktion;0x01=Zirkulationspumpe 20%;0x02=Zirkulationspumpe 50%;0x03=Zirkulationspumpe 100%;0x04=Alarmausgang;0x05=Zirkomat;0x06=Abtauen;0x07=ZWE;0x08=Verdichter EIN;0x09=EHZ Ein;0x0a=ZUP extern;0x0b=Kühlung ein;0x0c=Pool,,(WP008) Funktion Ausgang A4
+w,cha,funktion_ausgang_a4,(WP008) Funktion Ausgang A4,,08,5023,00CE32,funktion_ausgang_a4,,UIN,0x00=Keine Funktion;0x01=Zirkulationspumpe 20%;0x02=Zirkulationspumpe 50%;0x03=Zirkulationspumpe 100%;0x04=Alarmausgang;0x05=Zirkomat;0x06=Abtauen;0x07=ZWE;0x08=Verdichter EIN;0x09=EHZ Ein;0x0a=ZUP extern;0x0b=Kühlung ein;0x0c=Pool,,(WP008) Funktion Ausgang A4
+r,cha,temperaturueberhoehung_sammler,(WP009) Temperaturüberhöhung Sammler,,08,5022,CCCF32,temperaturueberhoehung_sammler,,SIN,10,K,(WP009) Temperaturüberhöhung Sammler
+w,cha,temperaturueberhoehung_sammler,(WP009) Temperaturüberhöhung Sammler,,08,5023,00CF32,temperaturueberhoehung_sammler,,SIN,10,K,(WP009) Temperaturüberhöhung Sammler
+r,cha,soll_spreizung,(WP010) Soll-Spreizung,,08,5022,CCE92E,soll_spreizung,,SIN,10,K,(WP010) Soll-Spreizung
+w,cha,soll_spreizung,(WP010) Soll-Spreizung,,08,5023,00E92E,soll_spreizung,,SIN,10,K,(WP010) Soll-Spreizung
+r,cha,hysterese_heizbetrieb,(WP011) Hysterese Heizbetrieb,,08,5022,CCD032,hysterese_heizbetrieb,,SIN,10,K,(WP011) Hysterese Heizbetrieb
+w,cha,hysterese_heizbetrieb,(WP011) Hysterese Heizbetrieb,,08,5023,00D032,hysterese_heizbetrieb,,SIN,10,K,(WP011) Hysterese Heizbetrieb
+r,cha,nachlauf_zhp,(WP012) Nachlauf ZHP,,08,5022,CCD132,nachlauf_zhp,,UIN,,min,(WP012) Nachlauf ZHP
+w,cha,nachlauf_zhp,(WP012) Nachlauf ZHP,,08,5023,00D132,nachlauf_zhp,,UIN,,min,(WP012) Nachlauf ZHP
+r,cha,verzoegerung_zwe_heizung,(WP013) Verzögerung ZWE Heizung,,08,5022,CCEC2E,verzoegerung_zwe_heizung,,UIN,,min,(WP013) Verzögerung ZWE Heizung
+w,cha,verzoegerung_zwe_heizung,(WP013) Verzögerung ZWE Heizung,,08,5023,00EC2E,verzoegerung_zwe_heizung,,UIN,,min,(WP013) Verzögerung ZWE Heizung
+r,cha,nachlauf_hkp,(WP014) Nachlauf HKP,,08,5022,CCD232,nachlauf_hkp,,UIN,,min,(WP014) Nachlauf HKP
+w,cha,nachlauf_hkp,(WP014) Nachlauf HKP,,08,5023,00D232,nachlauf_hkp,,UIN,,min,(WP014) Nachlauf HKP
+r,cha,pumpenleistung_hk_maximal,(WP015) Pumpenleistung HK maximal,,08,5022,CCEE2E,pumpenleistung_hk_maximal,,UIN,,%,(WP015) Pumpenleistung HK maximal
+w,cha,pumpenleistung_hk_maximal,(WP015) Pumpenleistung HK maximal,,08,5023,00EE2E,pumpenleistung_hk_maximal,,UIN,,%,(WP015) Pumpenleistung HK maximal
+r,cha,freigabe_spreizungsregelung,(WP016) Freigabe Spreizungsregelung,,08,5022,CCEF2E,freigabe_spreizungsregelung,,UIN,0x00=Aus;0x01=Ein,,(WP016) Freigabe Spreizungsregelung
+w,cha,freigabe_spreizungsregelung,(WP016) Freigabe Spreizungsregelung,,08,5023,00EF2E,freigabe_spreizungsregelung,,UIN,0x00=Aus;0x01=Ein,,(WP016) Freigabe Spreizungsregelung
+r,cha,kesselmaximaltemp_hz_tv_max,(WP017) Kesselmaximaltemp HZ TV-max,,08,5022,CCD332,kesselmaximaltemp_hz_tv_max,,SIN,10,°C,(WP017) Kesselmaximaltemp HZ TV-max
+w,cha,kesselmaximaltemp_hz_tv_max,(WP017) Kesselmaximaltemp HZ TV-max,,08,5023,00D332,kesselmaximaltemp_hz_tv_max,,SIN,10,°C,(WP017) Kesselmaximaltemp HZ TV-max
+r,cha,kesselminimaltemp_tk_min,(WP018) Kesselminimaltemp TK-min,,08,5022,CCF12E,kesselminimaltemp_tk_min,,SIN,10,°C,(WP018) Kesselminimaltemp TK-min
+w,cha,kesselminimaltemp_tk_min,(WP018) Kesselminimaltemp TK-min,,08,5023,00F12E,kesselminimaltemp_tk_min,,SIN,10,°C,(WP018) Kesselminimaltemp TK-min
+r,cha,pumpenleistung_hk_minimal,(WP019) Pumpenleistung HK minimal,,08,5022,CCD432,pumpenleistung_hk_minimal,,UIN,,%,(WP019) Pumpenleistung HK minimal
+w,cha,pumpenleistung_hk_minimal,(WP019) Pumpenleistung HK minimal,,08,5023,00D432,pumpenleistung_hk_minimal,,UIN,,%,(WP019) Pumpenleistung HK minimal
+r,cha,hysterese_warmwasserbetrieb,(WP020) Hysterese Warmwasserbetrieb,,08,5022,CCD532,hysterese_warmwasserbetrieb,,SIN,10,°C,(WP020) Hysterese Warmwasserbetrieb
+w,cha,hysterese_warmwasserbetrieb,(WP020) Hysterese Warmwasserbetrieb,,08,5023,00D532,hysterese_warmwasserbetrieb,,SIN,10,°C,(WP020) Hysterese Warmwasserbetrieb
+r,cha,freigabe_max_zeit_warmwasserbetrieb,(WP021) Freigabe max. Zeit Warmwasserbetrieb,,08,5022,CCF42E,freigabe_max_zeit_warmwasserbetrieb,,UIN,0x00=Aus;0x01=Ein,,(WP021) Freigabe max. Zeit Warmwasserbetrieb
+w,cha,freigabe_max_zeit_warmwasserbetrieb,(WP021) Freigabe max. Zeit Warmwasserbetrieb,,08,5023,00F42E,freigabe_max_zeit_warmwasserbetrieb,,UIN,0x00=Aus;0x01=Ein,,(WP021) Freigabe max. Zeit Warmwasserbetrieb
+r,cha,max_zeit_warmwasserbetrieb,(WP022) Max. Zeit Warmwasserbetrieb,,08,5022,CC8001,max_zeit_warmwasserbetrieb,,UIN,,min,(WP022) Max. Zeit Warmwasserbetrieb
+w,cha,max_zeit_warmwasserbetrieb,(WP022) Max. Zeit Warmwasserbetrieb,,08,5023,008001,max_zeit_warmwasserbetrieb,,UIN,,min,(WP022) Max. Zeit Warmwasserbetrieb
+r,cha,verz_zwe_warmwasserbetrieb,(WP023) Verz. ZWE Warmwasserbetrieb,,08,5022,CCF62E,verz_zwe_warmwasserbetrieb,,UIN,,min,(WP023) Verz. ZWE Warmwasserbetrieb
+w,cha,verz_zwe_warmwasserbetrieb,(WP023) Verz. ZWE Warmwasserbetrieb,,08,5023,00F62E,verz_zwe_warmwasserbetrieb,,UIN,,min,(WP023) Verz. ZWE Warmwasserbetrieb
+r,cha,sg_pv,(WP025) SG/PV,,08,5022,CCD832,sg_pv,,UIN,0x00=PV;0x01=SG,,(WP025) SG/PV
+w,cha,sg_pv,(WP025) SG/PV,,08,5023,00D832,sg_pv,,UIN,0x00=PV;0x01=SG,,(WP025) SG/PV
+r,cha,externe_anhebung_hz,(WP026) Externe Anhebung HZ,,08,5022,CCD932,externe_anhebung_hz,,SIN,10,°C,(WP026) Externe Anhebung HZ
+w,cha,externe_anhebung_hz,(WP026) Externe Anhebung HZ,,08,5023,00D932,externe_anhebung_hz,,SIN,10,°C,(WP026) Externe Anhebung HZ
+r,cha,externe_anhebung_ww,(WP027) Externe Anhebung WW,,08,5022,CCDA32,externe_anhebung_ww,,SIN,10,°C,(WP027) Externe Anhebung WW
+w,cha,externe_anhebung_ww,(WP027) Externe Anhebung WW,,08,5023,00DA32,externe_anhebung_ww,,SIN,10,°C,(WP027) Externe Anhebung WW
+r,cha,wez_management_bei_sg_pv,(WP028) WEZ-Management bei SG/PV,,08,5022,CCDB32,wez_management_bei_sg_pv,,UIN,0x00=Standard;0x01=WP;0x02=EHZ;0x03=WP + EHZ parallel,,(WP028) WEZ-Management bei SG/PV
+w,cha,wez_management_bei_sg_pv,(WP028) WEZ-Management bei SG/PV,,08,5023,00DB32,wez_management_bei_sg_pv,,UIN,0x00=Standard;0x01=WP;0x02=EHZ;0x03=WP + EHZ parallel,,(WP028) WEZ-Management bei SG/PV
+r,cha,busadresse,(WP031) Busadresse,,08,5022,CCFE2E,busadresse,,UIN,,,(WP031) Busadresse
+w,cha,busadresse,(WP031) Busadresse,,08,5023,00FE2E,busadresse,,UIN,,,(WP031) Busadresse
+r,cha,auswirkung_sg_pv_auf_heizbetrieb,(WP032) Auswirkung SG/PV auf Heizbetrieb,,08,5022,CCFF2E,auswirkung_sg_pv_auf_heizbetrieb,,UIN,0x00=Aus;0x01=Ein,,(WP032) Auswirkung SG/PV auf Heizbetrieb
+w,cha,auswirkung_sg_pv_auf_heizbetrieb,(WP032) Auswirkung SG/PV auf Heizbetrieb,,08,5023,00FF2E,auswirkung_sg_pv_auf_heizbetrieb,,UIN,0x00=Aus;0x01=Ein,,(WP032) Auswirkung SG/PV auf Heizbetrieb
+r,cha,auswirkung_sg_pv_auf_kuehlbetrieb,(WP033) Auswirkung SG/PV auf Kühlbetrieb,,08,5022,CC002F,auswirkung_sg_pv_auf_kuehlbetrieb,,UIN,0x00=Aus;0x01=Ein,,(WP033) Auswirkung SG/PV auf Kühlbetrieb
+w,cha,auswirkung_sg_pv_auf_kuehlbetrieb,(WP033) Auswirkung SG/PV auf Kühlbetrieb,,08,5023,00002F,auswirkung_sg_pv_auf_kuehlbetrieb,,UIN,0x00=Aus;0x01=Ein,,(WP033) Auswirkung SG/PV auf Kühlbetrieb
+r,cha,bivalenzpunkt_verdichter_sg_pv,(WP034) Bivalenzpunkt Verdichter SG/PV,,08,5022,CCDC32,bivalenzpunkt_verdichter_sg_pv,,SIN,10,°C,(WP034) Bivalenzpunkt Verdichter SG/PV
+w,cha,bivalenzpunkt_verdichter_sg_pv,(WP034) Bivalenzpunkt Verdichter SG/PV,,08,5023,00DC32,bivalenzpunkt_verdichter_sg_pv,,SIN,10,°C,(WP034) Bivalenzpunkt Verdichter SG/PV
+r,cha,bivalenzpunkt_ehz_sg_pv,(WP035) Bivalenzpunkt EHZ SG/PV,,08,5022,CCDD32,bivalenzpunkt_ehz_sg_pv,,SIN,10,°C,(WP035) Bivalenzpunkt EHZ SG/PV
+w,cha,bivalenzpunkt_ehz_sg_pv,(WP035) Bivalenzpunkt EHZ SG/PV,,08,5023,00DD32,bivalenzpunkt_ehz_sg_pv,,SIN,10,°C,(WP035) Bivalenzpunkt EHZ SG/PV
+r,cha,bivalenzpunkt_zwe_sg_pv,(WP036) Bivalenzpunkt ZWE SG/PV,,08,5022,CCDE32,bivalenzpunkt_zwe_sg_pv,,SIN,10,°C,(WP036) Bivalenzpunkt ZWE SG/PV
+w,cha,bivalenzpunkt_zwe_sg_pv,(WP036) Bivalenzpunkt ZWE SG/PV,,08,5023,00DE32,bivalenzpunkt_zwe_sg_pv,,SIN,10,°C,(WP036) Bivalenzpunkt ZWE SG/PV
+r,cha,externe_absenkung_k,(WP037) Externe Absenkung K,,08,5022,CC0733,externe_absenkung_k,,SIN,10,°C,(WP037) Externe Absenkung K
+w,cha,externe_absenkung_k,(WP037) Externe Absenkung K,,08,5023,000733,externe_absenkung_k,,SIN,10,°C,(WP037) Externe Absenkung K
+r,cha,pumpenleistung_ww,(WP040) Pumpenleistung WW,,08,5022,CCDF32,pumpenleistung_ww,,UIN,,%,(WP040) Pumpenleistung WW
+w,cha,pumpenleistung_ww,(WP040) Pumpenleistung WW,,08,5023,00DF32,pumpenleistung_ww,,UIN,,%,(WP040) Pumpenleistung WW
+r,cha,vorlauftemperatur_fuer_poolbetrieb,(WP045) Vorlauftemperatur für Poolbetrieb,,08,5022,CC2A33,vorlauftemperatur_fuer_poolbetrieb,,SIN,10,°C,(WP045) Vorlauftemperatur für Poolbetrieb
+w,cha,vorlauftemperatur_fuer_poolbetrieb,(WP045) Vorlauftemperatur für Poolbetrieb,,08,5023,002A33,vorlauftemperatur_fuer_poolbetrieb,,SIN,10,°C,(WP045) Vorlauftemperatur für Poolbetrieb
+r,cha,verzoegerung_zwe_poolbetrieb,(WP046) Verzögerung ZWE Poolbetrieb,,08,5022,CC2B33,verzoegerung_zwe_poolbetrieb,,UIN,,min,(WP046) Verzögerung ZWE Poolbetrieb
+w,cha,verzoegerung_zwe_poolbetrieb,(WP046) Verzögerung ZWE Poolbetrieb,,08,5023,002B33,verzoegerung_zwe_poolbetrieb,,UIN,,min,(WP046) Verzögerung ZWE Poolbetrieb
+r,cha,freigabe_zwe_poolbetrieb,(WP047) Freigabe ZWE Poolbetrieb,,08,5022,CC2C33,freigabe_zwe_poolbetrieb,,UIN,0x00=Aus;0x01=Ein,,(WP047) Freigabe ZWE Poolbetrieb
+w,cha,freigabe_zwe_poolbetrieb,(WP047) Freigabe ZWE Poolbetrieb,,08,5023,002C33,freigabe_zwe_poolbetrieb,,UIN,0x00=Aus;0x01=Ein,,(WP047) Freigabe ZWE Poolbetrieb
+r,cha,aussentemp_freigabe_kuehlbetrieb,(WP053) Aussentemp. Freigabe Kühlbetrieb,,08,5022,CC142F,aussentemp_freigabe_kuehlbetrieb,,SIN,10,°C,(WP053) Aussentemp. Freigabe Kühlbetrieb
+w,cha,aussentemp_freigabe_kuehlbetrieb,(WP053) Aussentemp. Freigabe Kühlbetrieb,,08,5023,00142F,aussentemp_freigabe_kuehlbetrieb,,SIN,10,°C,(WP053) Aussentemp. Freigabe Kühlbetrieb
+r,cha,min_vorlauftemperatur_fuer_kuehlbetrieb,(WP054) Min. Vorlauftemperatur für Kühlbetrieb,,08,5022,CCE032,min_vorlauftemperatur_fuer_kuehlbetrieb,,SIN,10,°C,(WP054) Min. Vorlauftemperatur für Kühlbetrieb
+w,cha,min_vorlauftemperatur_fuer_kuehlbetrieb,(WP054) Min. Vorlauftemperatur für Kühlbetrieb,,08,5023,00E032,min_vorlauftemperatur_fuer_kuehlbetrieb,,SIN,10,°C,(WP054) Min. Vorlauftemperatur für Kühlbetrieb
+r,cha,freigabe_kuehlbetrieb,(WP058) Freigabe Kühlbetrieb,,08,5022,CC192F,freigabe_kuehlbetrieb,,UIN,0x00=Aus;0x01=Ein,,(WP058) Freigabe Kühlbetrieb
+w,cha,freigabe_kuehlbetrieb,(WP058) Freigabe Kühlbetrieb,,08,5023,00192F,freigabe_kuehlbetrieb,,UIN,0x00=Aus;0x01=Ein,,(WP058) Freigabe Kühlbetrieb
+r,cha,hysterese_kuehlbetrieb,(WP059) Hysterese Kühlbetrieb,,08,5022,CCE132,hysterese_kuehlbetrieb,,SIN,10,K,(WP059) Hysterese Kühlbetrieb
+w,cha,hysterese_kuehlbetrieb,(WP059) Hysterese Kühlbetrieb,,08,5023,00E132,hysterese_kuehlbetrieb,,SIN,10,K,(WP059) Hysterese Kühlbetrieb
+r,cha,nachtbetrieb_ende,(WP061) Nachtbetrieb Ende,,08,5022,CC1C2F,nachtbetrieb_ende,,BTI,,,(WP061) Nachtbetrieb Ende
+w,cha,nachtbetrieb_ende,(WP061) Nachtbetrieb Ende,,08,5023,001C2F,nachtbetrieb_ende,,BTI,,,(WP061) Nachtbetrieb Ende
+r,cha,nachtbetrieb_start,(WP062) Nachtbetrieb Start,,08,5022,CC1D2F,nachtbetrieb_start,,BTI,,,(WP062) Nachtbetrieb Start
+w,cha,nachtbetrieb_start,(WP062) Nachtbetrieb Start,,08,5023,001D2F,nachtbetrieb_start,,BTI,,,(WP062) Nachtbetrieb Start
+r,cha,limitierung_nachtbetrieb,(WP064) Limitierung Nachtbetrieb,,08,5022,CCE232,limitierung_nachtbetrieb,,UIN,,%,(WP064) Limitierung Nachtbetrieb
+w,cha,limitierung_nachtbetrieb,(WP064) Limitierung Nachtbetrieb,,08,5023,00E232,limitierung_nachtbetrieb,,UIN,,%,(WP064) Limitierung Nachtbetrieb
+r,cha,limitierung_tagbetrieb,(WP065) Limitierung Tagbetrieb,,08,5022,CCE332,limitierung_tagbetrieb,,UIN,,%,(WP065) Limitierung Tagbetrieb
+w,cha,limitierung_tagbetrieb,(WP065) Limitierung Tagbetrieb,,08,5023,00E332,limitierung_tagbetrieb,,UIN,,%,(WP065) Limitierung Tagbetrieb
+r,cha,aktivierung_nachtbetrieb,(WP066) Aktivierung Nachtbetrieb,,08,5022,CCE62E,aktivierung_nachtbetrieb,,UIN,0x00=Aus;0x01=Ein,,(WP066) Aktivierung Nachtbetrieb
+w,cha,aktivierung_nachtbetrieb,(WP066) Aktivierung Nachtbetrieb,,08,5023,00E62E,aktivierung_nachtbetrieb,,UIN,0x00=Aus;0x01=Ein,,(WP066) Aktivierung Nachtbetrieb
+r,cha,t_zuluft_keine_abtauung,(WP070) T_Zuluft keine Abtauung,,08,5022,CCE432,t_zuluft_keine_abtauung,,SIN,10,°C,(WP070) T_Zuluft keine Abtauung
+w,cha,t_zuluft_keine_abtauung,(WP070) T_Zuluft keine Abtauung,,08,5023,00E432,t_zuluft_keine_abtauung,,SIN,10,°C,(WP070) T_Zuluft keine Abtauung
+r,cha,sperrzeit_abtauung,(WP073) Sperrzeit Abtauung,,08,5022,CCE532,sperrzeit_abtauung,,UIN,,min,(WP073) Sperrzeit Abtauung
+w,cha,sperrzeit_abtauung,(WP073) Sperrzeit Abtauung,,08,5023,00E532,sperrzeit_abtauung,,UIN,,min,(WP073) Sperrzeit Abtauung
+r,cha,max_zeit_abtaubetrieb,(WP074) Max. Zeit Abtaubetrieb,,08,5022,CCE632,max_zeit_abtaubetrieb,,UIN,,min,(WP074) Max. Zeit Abtaubetrieb
+w,cha,max_zeit_abtaubetrieb,(WP074) Max. Zeit Abtaubetrieb,,08,5023,00E632,max_zeit_abtaubetrieb,,UIN,,min,(WP074) Max. Zeit Abtaubetrieb
+r,cha,laufzeit_luefter_nach_abtaubetrieb,(WP077) Laufzeit Lüfter nach Abtaubetrieb,,08,5022,CCE732,laufzeit_luefter_nach_abtaubetrieb,,UIN,,sec,(WP077) Laufzeit Lüfter nach Abtaubetrieb
+w,cha,laufzeit_luefter_nach_abtaubetrieb,(WP077) Laufzeit Lüfter nach Abtaubetrieb,,08,5023,00E732,laufzeit_luefter_nach_abtaubetrieb,,UIN,,sec,(WP077) Laufzeit Lüfter nach Abtaubetrieb
+r,cha,bivalenzpunkt_verdichter,(WP080) Bivalenzpunkt Verdichter,,08,5022,CCE832,bivalenzpunkt_verdichter,,SIN,10,°C,(WP080) Bivalenzpunkt Verdichter
+w,cha,bivalenzpunkt_verdichter,(WP080) Bivalenzpunkt Verdichter,,08,5023,00E832,bivalenzpunkt_verdichter,,SIN,10,°C,(WP080) Bivalenzpunkt Verdichter
+r,cha,freigabe_e_heizung_fuer_hz_betrieb,(WP090) Freigabe E-Heizung für HZ-Betrieb,,08,5022,CC392F,freigabe_e_heizung_fuer_hz_betrieb,,UIN,0x00=Aus;0x01=Ein,,(WP090) Freigabe E-Heizung für HZ-Betrieb
+w,cha,freigabe_e_heizung_fuer_hz_betrieb,(WP090) Freigabe E-Heizung für HZ-Betrieb,,08,5023,00392F,freigabe_e_heizung_fuer_hz_betrieb,,UIN,0x00=Aus;0x01=Ein,,(WP090) Freigabe E-Heizung für HZ-Betrieb
+r,cha,bivalenzpunkt_e_heizung,(WP091) Bivalenzpunkt E-Heizung,,08,5022,CCE932,bivalenzpunkt_e_heizung,,SIN,10,°C,(WP091) Bivalenzpunkt E-Heizung
+w,cha,bivalenzpunkt_e_heizung,(WP091) Bivalenzpunkt E-Heizung,,08,5023,00E932,bivalenzpunkt_e_heizung,,SIN,10,°C,(WP091) Bivalenzpunkt E-Heizung
+r,cha,evu_sperre_fuer_e_heizung,(WP092) EVU-Sperre für E-Heizung,,08,5022,CC3B2F,evu_sperre_fuer_e_heizung,,UIN,0x00=Aus;0x01=Ein,,(WP092) EVU-Sperre für E-Heizung
+w,cha,evu_sperre_fuer_e_heizung,(WP092) EVU-Sperre für E-Heizung,,08,5023,003B2F,evu_sperre_fuer_e_heizung,,UIN,0x00=Aus;0x01=Ein,,(WP092) EVU-Sperre für E-Heizung
+r,cha,typ_e_heizung,(WP094) Typ E-Heizung,,08,5022,CCEA32,typ_e_heizung,,UIN,0x00=Keine;0x01=3 kW;0x02=6 kW;0x03=9 kW,,(WP094) Typ E-Heizung
+w,cha,typ_e_heizung,(WP094) Typ E-Heizung,,08,5023,00EA32,typ_e_heizung,,UIN,0x00=Keine;0x01=3 kW;0x02=6 kW;0x03=9 kW,,(WP094) Typ E-Heizung
+r,cha,freigabe_ehz_warmwasserbetrieb,(WP095) Freigabe EHZ Warmwasserbetrieb,,08,5022,CCEB32,freigabe_ehz_warmwasserbetrieb,,UIN,0x00=Aus;0x01=Ein,,(WP095) Freigabe EHZ Warmwasserbetrieb
+w,cha,freigabe_ehz_warmwasserbetrieb,(WP095) Freigabe EHZ Warmwasserbetrieb,,08,5023,00EB32,freigabe_ehz_warmwasserbetrieb,,UIN,0x00=Aus;0x01=Ein,,(WP095) Freigabe EHZ Warmwasserbetrieb
+r,cha,bivalenzpunkt_zwe,(WP101) Bivalenzpunkt ZWE,,08,5022,CCEC32,bivalenzpunkt_zwe,,SIN,10,°C,(WP101) Bivalenzpunkt ZWE
+w,cha,bivalenzpunkt_zwe,(WP101) Bivalenzpunkt ZWE,,08,5023,00EC32,bivalenzpunkt_zwe,,SIN,10,°C,(WP101) Bivalenzpunkt ZWE
+r,cha,prioritaet_zwe_heizbetrieb,(WP102) Priorität ZWE Heizbetrieb,,08,5022,CCED32,prioritaet_zwe_heizbetrieb,,UIN,,,(WP102) Priorität ZWE Heizbetrieb
+w,cha,prioritaet_zwe_heizbetrieb,(WP102) Priorität ZWE Heizbetrieb,,08,5023,00ED32,prioritaet_zwe_heizbetrieb,,UIN,,,(WP102) Priorität ZWE Heizbetrieb
+r,cha,prioritaet_zwe_warmwasserbetrieb,(WP103) Priorität ZWE Warmwasserbetrieb,,08,5022,CCEE32,prioritaet_zwe_warmwasserbetrieb,,UIN,,,(WP103) Priorität ZWE Warmwasserbetrieb
+w,cha,prioritaet_zwe_warmwasserbetrieb,(WP103) Priorität ZWE Warmwasserbetrieb,,08,5023,00EE32,prioritaet_zwe_warmwasserbetrieb,,UIN,,,(WP103) Priorität ZWE Warmwasserbetrieb
+r,cha,zwe_ueber_e_bus,(WP104) ZWE über eBus,,08,5022,CC472F,zwe_ueber_e_bus,,UIN,0x00=Aus;0x01=Ein,,(WP104) ZWE über eBus
+w,cha,zwe_ueber_e_bus,(WP104) ZWE über eBus,,08,5023,00472F,zwe_ueber_e_bus,,UIN,0x00=Aus;0x01=Ein,,(WP104) ZWE über eBus
+r,cha,evu_sperre_zwe,(WP105) EVU-Sperre ZWE,,08,5022,CC1A33,evu_sperre_zwe,,UIN,0x00=Aus;0x01=Ein,,(WP105) EVU-Sperre ZWE
+w,cha,evu_sperre_zwe,(WP105) EVU-Sperre ZWE,,08,5023,001A33,evu_sperre_zwe,,UIN,0x00=Aus;0x01=Ein,,(WP105) EVU-Sperre ZWE
+r,cha,wertigkeit_der_s0_impulse_cha,(WP110) Wertigkeit der S0-Impulse CHA,,08,5022,CCEF32,wertigkeit_der_s0_impulse_cha,,UIN,,pls/kWh,(WP110) Wertigkeit der S0-Impulse CHA
+w,cha,wertigkeit_der_s0_impulse_cha,(WP110) Wertigkeit der S0-Impulse CHA,,08,5023,00EF32,wertigkeit_der_s0_impulse_cha,,UIN,,pls/kWh,(WP110) Wertigkeit der S0-Impulse CHA
+r,cha,wertigkeit_der_s0_impulse_einspeisezaehler,(WP111) Wertigkeit der S0-Impulse Einspeisezähler,,08,5022,CCF032,wertigkeit_der_s0_impulse_einspeisezaehler,,UIN,,pls/kWh,(WP111) Wertigkeit der S0-Impulse Einspeisezähler
+w,cha,wertigkeit_der_s0_impulse_einspeisezaehler,(WP111) Wertigkeit der S0-Impulse Einspeisezähler,,08,5023,00F032,wertigkeit_der_s0_impulse_einspeisezaehler,,UIN,,pls/kWh,(WP111) Wertigkeit der S0-Impulse Einspeisezähler
+r,cha,aktueller_energiepreis_zwe,(WP115) Aktueller Energiepreis ZWE,,08,5022,CCF232,aktueller_energiepreis_zwe,,SIN,10,Cent/kWh,(WP115) Aktueller Energiepreis ZWE
+w,cha,aktueller_energiepreis_zwe,(WP115) Aktueller Energiepreis ZWE,,08,5023,00F232,aktueller_energiepreis_zwe,,SIN,10,Cent/kWh,(WP115) Aktueller Energiepreis ZWE
+r,cha,aktueller_strompreis,(WP116) Aktueller Strompreis,,08,5022,CCF332,aktueller_strompreis,,SIN,10,Cent/kWh,(WP116) Aktueller Strompreis
+w,cha,aktueller_strompreis,(WP116) Aktueller Strompreis,,08,5023,00F332,aktueller_strompreis,,SIN,10,Cent/kWh,(WP116) Aktueller Strompreis
+r,cha,hybridbetrieb,(WP117) Hybridbetrieb,,08,5022,CCF432,hybridbetrieb,,UIN,0x00=Standard;0x01=Ökonomisch;0x02=Ökologisch,,(WP117) Hybridbetrieb
+w,cha,hybridbetrieb,(WP117) Hybridbetrieb,,08,5023,00F432,hybridbetrieb,,UIN,0x00=Standard;0x01=Ökonomisch;0x02=Ökologisch,,(WP117) Hybridbetrieb
+r,cha,verdichter_max_starts_pro_stunde,(WP121) Verdichter max. Starts pro Stunde,,08,5022,CC582F,verdichter_max_starts_pro_stunde,,UIN,,,(WP121) Verdichter max. Starts pro Stunde
+w,cha,verdichter_max_starts_pro_stunde,(WP121) Verdichter max. Starts pro Stunde,,08,5023,00582F,verdichter_max_starts_pro_stunde,,UIN,,,(WP121) Verdichter max. Starts pro Stunde
