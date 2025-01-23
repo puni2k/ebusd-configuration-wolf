@@ -96,6 +96,7 @@ r,cha,soll_spreizung,(WP010) Soll-Spreizung,,08,5022,CCE92E,soll_spreizung,,SIN,
 w,cha,soll_spreizung,(WP010) Soll-Spreizung,,08,5023,00E92E,soll_spreizung,,SIN,10,K,(WP010) Soll-Spreizung
 r,cha,hysterese_heizbetrieb,(WP011) Hysterese Heizbetrieb,,08,5022,CCD032,hysterese_heizbetrieb,,SIN,10,K,(WP011) Hysterese Heizbetrieb
 w,cha,hysterese_heizbetrieb,(WP011) Hysterese Heizbetrieb,,08,5023,00D032,hysterese_heizbetrieb,,SIN,10,K,(WP011) Hysterese Heizbetrieb
+r,cha,drehzahl_zhp,Drehzahl ZHP,,8,5022,CC5727,drehzahl_zhp,,UIN,,%,Drehzahl ZHP
 r,cha,nachlauf_zhp,(WP012) Nachlauf ZHP,,08,5022,CCD132,nachlauf_zhp,,UIN,,min,(WP012) Nachlauf ZHP
 w,cha,nachlauf_zhp,(WP012) Nachlauf ZHP,,08,5023,00D132,nachlauf_zhp,,UIN,,min,(WP012) Nachlauf ZHP
 r,cha,verzoegerung_zwe_heizung,(WP013) Verzögerung ZWE Heizung,,08,5022,CCEC2E,verzoegerung_zwe_heizung,,UIN,,min,(WP013) Verzögerung ZWE Heizung
