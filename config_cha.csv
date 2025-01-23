@@ -211,3 +211,6 @@ r,cha,hybridbetrieb,(WP117) Hybridbetrieb,,08,5022,CCF432,hybridbetrieb,,UIN,0x0
 w,cha,hybridbetrieb,(WP117) Hybridbetrieb,,08,5023,00F432,hybridbetrieb,,UIN,0x00=Standard;0x01=Ökonomisch;0x02=Ökologisch,,(WP117) Hybridbetrieb
 r,cha,verdichter_max_starts_pro_stunde,(WP121) Verdichter max. Starts pro Stunde,,08,5022,CC582F,verdichter_max_starts_pro_stunde,,UIN,,,(WP121) Verdichter max. Starts pro Stunde
 w,cha,verdichter_max_starts_pro_stunde,(WP121) Verdichter max. Starts pro Stunde,,08,5023,00582F,verdichter_max_starts_pro_stunde,,UIN,,,(WP121) Verdichter max. Starts pro Stunde
+r,cha,energie_k,Energiemenge Kühlung,,8,5022,CCCD30;CCDC30,energie_k,,ULG,,kWh,Energiemenge Kühlung
+r,cha,drehzahl_ventilator,Drehzahl Ventilator,,8,5022,CC6327,drehzahl_ventilator,,UIN,,U/min,Drehzahl Ventilator
+r,cha,leistungsklasse,Leistungsklasse,,8,5022,CC3827,leistungsklasse,,UIN,,kW,Leistungsklasse
