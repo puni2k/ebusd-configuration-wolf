@@ -76,6 +76,9 @@ r,cha,erzeugte_waermemenge_vorvorjahr,Erzeugte Wärmemenge Vorvorjahr,,08,5022,C
 r,cha,jaz_vorvorjahr,JAZ Vorvorjahr,,08,5022,CC3133,jaz_vorvorjahr,,SIN,10,,JAZ Vorvorjahr
 r,cha,warmwasser_betriebsart,Warmwasser Betriebsart,,08,5022,CC1733,warmwasser_betriebsart,,UIN,0x00=Effizient;0x01=Schnell,,Warmwasser Betriebsart
 r,cha,betriebsart_verdichter,Betriebsart Verdichter,,08,5022,CC1633,betriebsart_verdichter,,UIN,0x00=Leistungsoptimiert;0x01=Schalloptimiert,,Betriebsart Verdichter
+r,cha,energie_k,Energiemenge Kühlung,,8,5022,CCCD30;CCDC30,energie_k,,ULG,,kWh,Energiemenge Kühlung
+r,cha,drehzahl_ventilator_alternative,Drehzahl Ventilator Alternative,,8,5022,CC6327,drehzahl_ventilator_alternative,,UIN,,U/min,Drehzahl Ventilator Alternative
+r,cha,leistungsklasse,Leistungsklasse,,8,5022,CC3827,leistungsklasse,,UIN,,kW,Leistungsklasse
 r,cha,anlagenkonfiguration,(WP001) Anlagenkonfiguration,,08,5022,CCC832,anlagenkonfiguration,,UIN,0x00=Konfiguration 1;0x01=Konfiguration 2;0x02=Konfiguration 11;0x03=Konfiguration 12;0x04=Konfiguration 51;0x05=Konfiguration 52,,(WP001) Anlagenkonfiguration
 w,cha,anlagenkonfiguration,(WP001) Anlagenkonfiguration,,08,5023,00C832,anlagenkonfiguration,,UIN,0x00=Konfiguration 1;0x01=Konfiguration 2;0x02=Konfiguration 11;0x03=Konfiguration 12;0x04=Konfiguration 51;0x05=Konfiguration 52,,(WP001) Anlagenkonfiguration
 r,cha,funktion_eingang_e1,(WP002) Funktion Eingang E1,,08,5022,CCC932,funktion_eingang_e1,,UIN,0x00=Keine Funktion;0x01=RT;0x02=WW;0x03=RT / WW;0x04=Zirkomat;0x05=MaxTh;0x06=KühlTh;0x07=SAF Kühlen;0x08=PV;0x09=Ext. Störung;0x0a=Pool,,(WP002) Funktion Eingang E1
