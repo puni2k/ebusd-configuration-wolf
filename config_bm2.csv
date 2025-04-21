@@ -1,3 +1,5 @@
 # type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment
 r,bm2,programmwahl,Programmwahl,,35,5022,CC7427,programmwahl,,UIN,0x00=Standby;0x01=Auto;0x02=Permanent;0x03=Sparen,,Programmwahl
 w,bm2,programmwahl,Programmwahl,,35,5023,007427,programmwahl,,UIN,,,Programmwahl
+r,bm2,sollwertkorrektur_dhk,Sollwertkorrektur DHK,,35,5022,CCB527,sollwertkorrektur_dhk,,SIN,10,,Sollwertkorrektur DHK
+w,bm2,sollwertkorrektur_dhk,Sollwertkorrektur DHK,,35,5023,00B527,sollwertkorrektur_dhk,,SIN,10,,Sollwertkorrektur DHK
