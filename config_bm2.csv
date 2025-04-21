@@ -3,3 +3,5 @@ r,bm2,programmwahl,Programmwahl,,35,5022,CC7427,programmwahl,,UIN,0x00=Standby;0
 w,bm2,programmwahl,Programmwahl,,35,5023,007427,programmwahl,,UIN,,,Programmwahl
 r,bm2,sollwertkorrektur_dhk,Sollwertkorrektur DHK,,35,5022,CCB527,sollwertkorrektur_dhk,,SIN,10,,Sollwertkorrektur DHK
 w,bm2,sollwertkorrektur_dhk,Sollwertkorrektur DHK,,35,5023,00B527,sollwertkorrektur_dhk,,SIN,10,,Sollwertkorrektur DHK
+r,bm2,korrektur_aussentemperatur,Korrektur Aussentemperatur,,35,5022,CCA305,korrektur_aussentemperatur,,SIN,10,,Korrektur Aussentemperatur
+w,bm2,korrektur_aussentemperatur,Korrektur Aussentemperatur,,35,5023,00A305,korrektur_aussentemperatur,,SIN,10,,Korrektur Aussentemperatur
