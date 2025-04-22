@@ -5,3 +5,11 @@ r,bm2,sollwertkorrektur_dhk,Sollwertkorrektur DHK,,35,5022,CCB527,sollwertkorrek
 w,bm2,sollwertkorrektur_dhk,Sollwertkorrektur DHK,,35,5023,00B527,sollwertkorrektur_dhk,,SIN,10,,Sollwertkorrektur DHK
 r,bm2,korrektur_aussentemperatur,Korrektur Aussentemperatur,,35,5022,CCA305,korrektur_aussentemperatur,,SIN,10,,Korrektur Aussentemperatur
 w,bm2,korrektur_aussentemperatur,Korrektur Aussentemperatur,,35,5023,00A305,korrektur_aussentemperatur,,SIN,10,,Korrektur Aussentemperatur
+r,bm2,sockeltemperatur_heizkurve,Sockeltemperatur Heizkurve,,35,5022,CC7B27,sockeltemperatur_heizkurve,,SIN,10,,Sockeltemperatur Heizkurve
+w,bm2,sockeltemperatur_heizkurve,Sockeltemperatur Heizkurve,,35,5023,007B27,sockeltemperatur_heizkurve,,SIN,10,,Sockeltemperatur Heizkurve
+r,bm2,startpunkt_heizkurve,Startpunkt Heizkurve,,35,5022,CC7E27,startpunkt_heizkurve,,SIN,10,,Startpunkt Heizkurve
+w,bm2,startpunkt_heizkurve,Startpunkt Heizkurve,,35,5023,007E27,startpunkt_heizkurve,,SIN,10,,Startpunkt Heizkurve
+r,bm2,normaussentemperatur_heizkurve,Normaussentemperatur Heizkurve,,35,5022,CC7F27,normaussentemperatur_heizkurve,,SIN,10,,Normaussentemperatur Heizkurve
+w,bm2,normaussentemperatur_heizkurve,Normaussentemperatur Heizkurve,,35,5023,007F27,normaussentemperatur_heizkurve,,SIN,10,,Normaussentemperatur Heizkurve
+r,bm2,vorlauftemperatur_heizkurve,Vorlauftemperatur Heizkurve,,35,5022,CC7C27,vorlauftemperatur_heizkurve,,SIN,10,,Vorlauftemperatur Heizkurve
+w,bm2,vorlauftemperatur_heizkurve,Vorlauftemperatur Heizkurve,,35,5023,007C27,vorlauftemperatur_heizkurve,,SIN,10,,Vorlauftemperatur Heizkurve
