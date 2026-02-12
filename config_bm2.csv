@@ -13,3 +13,5 @@ r,bm2,normaussentemperatur_heizkurve,Normaussentemperatur Heizkurve,,35,5022,CC7
 w,bm2,normaussentemperatur_heizkurve,Normaussentemperatur Heizkurve,,35,5023,007F27,normaussentemperatur_heizkurve,,SIN,10,,Normaussentemperatur Heizkurve
 r,bm2,vorlauftemperatur_heizkurve,Vorlauftemperatur Heizkurve,,35,5022,CC7C27,vorlauftemperatur_heizkurve,,SIN,10,,Vorlauftemperatur Heizkurve
 w,bm2,vorlauftemperatur_heizkurve,Vorlauftemperatur Heizkurve,,35,5023,007C27,vorlauftemperatur_heizkurve,,SIN,10,,Vorlauftemperatur Heizkurve
+r,bm2,warmwasser_1h,1x Warmwasser,,35,5022,CC8527,warmwasser_1h,,UIN,0x00=Aus;0x01=Ein,,1x Warmwasser
+w,bm2,warmwasser_1h,1x Warmwasser,,35,5023,008527,warmwasser_1h,,UIN,,,1x Warmwasser
