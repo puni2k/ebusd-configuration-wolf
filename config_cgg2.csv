@@ -1,0 +1,58 @@
+
+# type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment
+r,feuerung,temp_burner,Kesseltemperatur,,08,5022,CC0D00,,,UIN,10,°C,Kesseltemperatur
+r,feuerung,performance_burner,Geraeteleistung,,08,5022,CC6F01,,,UCH,,%,Geraeteleistung
+r,feuerung,performance_pump,Drehzahl Pumpe,,08,5022,CC5727,,,UCH,,%,Drehzahl Pumpe
+r,feuerung,pressure,Anlagendruck,,08,5022,CC1A27,,,UIN,100,bar,Anlagendruck
+r,feuerung,fw_version_burner,Brenner Software Version,,08,5022,CC9A01,,,UCH,,,Brenner Software Version
+r,feuerung,no_of_firing,Anzahl Zuendungen,,08,5022,CC2602,,,UIN,,,Anzahl Zuendungen
+r,feuerung,ionisation,Ionisation,,08,5022,CC4F27,,,UCH,,,Ionisation
+r,feuerung,op_hrs_heating,Betriebsstunden Brenner,,08,5022,CC2A02,,,UIN,,hours,Betriebsstunden Brenner
+r,feuerung,op_hrs_supply,Betriebsstunden am Netz,,08,5022,CC2802,,,UIN,,hours,Betriebsstunden am Netz
+r,feuerung,uflags4,Heizung Status uflags4,,08,5022,CC5427,,,UIN,,,Heizung Status uflags4
+r,feuerung,uflags5,Heizung Status uflags5,,08,5022,CC5327,,,UIN,,,Heizung Status uflags5
+r,feuerung,hg01,HG 01 - Hysterese Vorlauftemperatur,,08,5022,842200,hysterese_vorlauf,,UIN,10,K,Hysterese Vorlauftemperatur (5-30)
+w,feuerung,hg01,HG 01 - Hysterese Vorlauftemperatur,,03,5023,002200,hysterese_vorlauf,,UIN,10,K,Hysterese Vorlauftemperatur (5-30)
+r,feuerung,hg06,HG 06 - Heizkreispumpenbetriebsart,,08,5022,254101,betriebsart,,UIN,,,Heizkreispumpenbetriebsart (0-2)
+w,feuerung,hg06,HG 06 - Heizkreispumpenbetriebsart,,03,5023,004101,betriebsart,,UIN,,,Heizkreispumpenbetriebsart (0-2)
+r,feuerung,hg07,HG 07 - Heizkreispumpennachlauf,,08,5022,c14201,pumpen_nachlauf,,UIN,,min,Heizkreispumpennachlauf (0-30)
+w,feuerung,hg07,HG 07 - Heizkreispumpennachlauf,,03,5023,004201,pumpen_nachlauf,,UIN,,min,Heizkreispumpennachlauf (0-30)
+r,feuerung,hg08,HG 08 - Maximale Vorlaufsolltemperatur,,08,5022,de8402,max_vorlauf_temp,,UIN,10,°C,Maximale Vorlaufsolltemperatur (40-90)
+w,feuerung,hg08,HG 08 - Maximale Vorlaufsolltemperatur,,03,5023,008402,max_vorlauf_temp,,UIN,10,°C,Maximale Vorlaufsolltemperatur (40-90)
+r,feuerung,hg09,HG 09 - Taktsperre,,08,5022,9d4301,taktsperre,,UIN,,min,Taktsperre des Brenners (1-30)
+w,feuerung,hg09,HG 09 - Taktsperre,,03,5023,004301,taktsperre,,UIN,,min,Taktsperre des Brenners (1-30)
+r,feuerung,hg10,HG 10 - eBus-Adresse,,08,5022,ad7801,ebus_addr,,UIN,,,eBus-Adresse
+r,feuerung,hg11,HG 11 - Warmwasserschnellstart,,08,5022,a56a01,ww_schnellstart,,UIN,10,°C,Warmwasserschnellstart
+r,feuerung,hg12,HG 12 - Gasart,,08,5022,f96b01,gas_art,,UIN,,,Gasart
+r,feuerung,hg13,HG 13 - Parametrierbarer Eingang E1,,08,5022,7e5b0a,eingang_e1,,UCH,,,Parametrierbarer Eingang E1 (0-11)
+w,feuerung,hg13,HG 13 - Parametrierbarer Eingang E1,,03,5023,005b0a,eingang_e1,,UCH,,,Parametrierbarer Eingang E1 (0-11)
+r,feuerung,hg15,HG 15 - Speicherhysterese,,08,5022,794001,hysterese_speicher,,UIN,10,°C,Speicherhysterese (1-30)
+w,feuerung,hg15,HG 15 - Speicherhysterese,,03,5023,004001,hysterese_speicher,,UIN,10,°C,Speicherhysterese (1-30)
+r,feuerung,hg16,HG 16 - Pumpenleistung HK minimal,,08,5022,b95501,pumpenleistung_hk_min,,UIN,,%,Pumpenleistung HK minimal (20-100)
+w,feuerung,hg16,HG 16 - Pumpenleistung HK minimal,,03,5023,005501,pumpenleistung_hk_min,,UIN,,%,Pumpenleistung HK minimal (20-100)
+r,feuerung,hg17,HG 17 - Pumpenleistung HK maximal,,08,5022,5d5601,pumpenleistung_hk_max,,UIN,,%,Pumpenleistung HK maximal (20-100)
+w,feuerung,hg17,HG 17 - Pumpenleistung HK maximal,,03,5023,005601,pumpenleistung_hk_max,,UIN,,%,Pumpenleistung HK maximal (20-100)
+r,feuerung,hg21,HG 21 - Kesselminimaltemperatur,,08,5022,201f00,kessel_min,,UIN,10,°C,Kesselminimaltemperatur
+w,feuerung,hg21,HG 21 - Kesselminimaltemperatur,,03,5023,001f00,kessel_min,,UIN,10,°C,Kesselminimaltemperatur
+r,feuerung,hg22,HG 22 - Kesselmaximaltemperatur,,08,5022,f42700,kessel_max,,UIN,10,°C,Kesselmaximaltemperatur
+w,feuerung,hg22,HG 22 - Kesselmaximaltemperatur,,03,5023,002700,kessel_max,,UIN,10,°C,Kesselmaximaltemperatur
+r,feuerung,hg74,HG 74 - Geblaesedrehzahl,,08,5022,d5f601,gebl_drehzahl,,UCH,,U/sec,Geblaesedrehzahl
+r,feuerung,hg75,HG 75 - Warmwasserdurchsatz,,08,5022,316c01,ww_durchsatz,,UIN,,l/min,Warmwasserdurchsatz
+r,feuerung,hg9x,HG 9x - Netzbetriebsstunden,,08,5022,662802,betriebsstunden_netz,,UIN,,hours,Netzbetriebsstunden
+r,feuerung,hg90,HG 90 - Brennerbetriebsstunden,,08,5022,de2a02,betriebsstunden_brenner,,UIN,,hours,Brennerbetriebsstunden
+r,feuerung,hg91,HG 91 - Brennerstarts,,08,5022,aa2602,brennerstarts,,UIN,,Starts,Brennerstarts
+r,feuerung,vorlauf_soll,Vorlauf Solltemperatur,,08,5022,b80200,vorlauf_soll,,UIN,10,°C,Vorlauf Solltemperatur
+r,feuerung,vorlauf_ist,Vorlauf Ist-Temperatur,,08,5022,280d00,vorlauf_ist,,UIN,10,°C,Vorlauf Ist-Temperatur
+r,feuerung,warmwasser_soll,Warmwasser Solltemperatur,,08,5022,e40300,warmwasser_soll,,UIN,10,°C,Warmwasser Solltemperatur
+r,feuerung,warmwasser_ist,Warmwasser Ist-Temperatur,,08,5022,cc0e00,warmwasser_ist,,UIN,10,°C,Warmwasser Ist-Temperatur
+r,feuerung,pwm_pumpe,PWM Pumpe,,08,5022,6d6d01,pwm_pumpe,,UIN,,%,PWM Pumpe
+r,feuerung,hg80,HG 80 - Letzter Fehler (raw),,08,5022,3a2902,fehler_roh,,HEX:2,,,Letzter Fehler (Encoding proprietaer)
+r,feuerung,hg81,HG 81 - Fehler 2 (raw),,08,5022,822b02,fehler_roh,,HEX:2,,,Fehlerhistorie 2
+r,feuerung,hg82,HG 82 - Fehler 3 (raw),,08,5022,4a2c02,fehler_roh,,HEX:2,,,Fehlerhistorie 3
+r,feuerung,hg83,HG 83 - Fehler 4 (raw),,08,5022,162d02,fehler_roh,,HEX:2,,,Fehlerhistorie 4
+r,feuerung,hg84,HG 84 - Fehler 5 (raw),,08,5022,f22e02,fehler_roh,,HEX:2,,,Fehlerhistorie 5
+r,feuerung,hg85,HG 85 - Fehler 6 (raw),,08,5022,ae2f02,fehler_roh,,HEX:2,,,Fehlerhistorie 6
+r,feuerung,hg86,HG 86 - Fehler 7 (raw),,08,5022,8e3002,fehler_roh,,HEX:2,,,Fehlerhistorie 7
+r,feuerung,hg87,HG 87 - Fehler 8 (raw),,08,5022,d23102,fehler_roh,,HEX:2,,,Fehlerhistorie 8
+r,feuerung,hg88,HG 88 - Fehler 9 (raw),,08,5022,363202,fehler_roh,,HEX:2,,,Fehlerhistorie 9
+r,feuerung,hg89,HG 89 - Aeltester Fehler (raw),,08,5022,6a3302,fehler_roh,,HEX:2,,,Aeltester Fehler
